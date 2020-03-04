@@ -7,9 +7,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         body: Center(
-          child: Image(
-              image: NetworkImage(
-                  'https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9')),
+          child: Image.asset('images/diamond.png'),
         ),
         appBar: AppBar(
           backgroundColor: Colors.blueGrey[900],
